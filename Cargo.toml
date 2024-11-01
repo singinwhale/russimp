@@ -24,7 +24,7 @@ derivative = "2.2"
 strum = "0.25"
 strum_macros = "0.25"
 mint = { version = "0.5", optional = true }
-russimp-sys = {version = "2.0", workspace = true}
+russimp-sys.workspace = true
 
 [features]
 default = []
