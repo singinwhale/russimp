@@ -30,7 +30,6 @@ mint = { version = "0.5.9", optional = true }
 default = []
 prebuilt = ["russimp-sys/prebuilt"]
 static-link = ["russimp-sys/static-link"]
-nozlib = ["russimp-sys/nozlib"]
 
 [package.metadata.docs.rs]
 features = ["prebuilt"]
