@@ -276,6 +276,17 @@ impl Material {
     }
 }
 
+pub const MATKEY_TEXTURE : &'static str = "$tex.file";
+pub const MATKEY_UVWSRC : &'static str = "$tex.uvwsrc";
+pub const MATKEY_TEXOP : &'static str = "$tex.op";
+pub const MATKEY_MAPPING : &'static str = "$tex.mapping";
+pub const MATKEY_TEXBLEND : &'static str = "$tex.blend";
+pub const MATKEY_MAPPINGMODE_U : &'static str = "$tex.mapmodeu";
+pub const MATKEY_MAPPINGMODE_V : &'static str = "$tex.mapmodev";
+pub const MATKEY_TEXMAP_AXIS : &'static str = "$tex.mapaxis";
+pub const MATKEY_UVTRANSFORM : &'static str = "$tex.uvtrafo";
+pub const MATKEY_TEXFLAGS : &'static str = "$tex.flags";
+
 #[derive(Derivative, Clone)]
 #[derivative(Debug)]
 pub struct MaterialProperty {
